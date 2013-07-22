@@ -7,4 +7,4 @@ Name: OpenSSL-CNI
 Description: CNI (java) bindings for OpenSSL
 Version: @LIBRARY_VERSION@.@LIBRARY_MINOR@
 Libs: -L${libdir} -l@LIBRARY_NAME@ @OPENSSL_LIBS@
-Cflags: -I${includedir}/openssl-cni @OPENSSL_CFLAGS@
+Cflags: -I${includedir}/openssl-cni -I${libdir}/java/openssl-cni.jar @OPENSSL_CFLAGS@
