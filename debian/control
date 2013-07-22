@@ -1,0 +1,13 @@
+Source: openssl-java
+Section: libs
+Priority: extra
+Maintainer: Enrico Weigelt, metux IT service <weigelt@metux.de>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7), gcj-jdk, libssl-dev
+
+Package: openssl-java
+Architecture: any
+Pre-Depends: debconf
+Depends:  ${misc:Depends}
+Description: OpenSSL bindings for Java / CNI
+

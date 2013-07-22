@@ -1,0 +1,5 @@
+openssl-java (0.0.1-precise1) precise; urgency=low
+
+  * Packaging for Ubuntu precise
+
+ -- Enrico Weigelt, metux IT service <weigelt@metux.de>  Mon, 22 Jul 2013 08:05:13 +0200
