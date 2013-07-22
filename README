@@ -1,0 +1,7 @@
+OpenSSL binding for Java/CNI
+-----------------------------
+
+Provides access to OpenSSL library (libcrypto) from machine-code-compiled
+Java using GCJ and CNI.
+
+Yet in a very early state.
