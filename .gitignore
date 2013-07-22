@@ -1,0 +1,7 @@
+/cni/classes
+/cni/tmp
+/javadoc
+*.a
+*.so
+*.so.*
+*.pc

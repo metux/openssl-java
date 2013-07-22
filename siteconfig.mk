@@ -1,0 +1,17 @@
+
+PREFIX?=/usr
+EXEC_PREFIX?=$(PREFIX)
+LIBDIR?=$(EXEC_PREFIX)/lib
+INCLUDEDIR?=$(EXEC_PREFIX)/include
+PKGCONFIGDIR?=$(LIBDIR)/pkgconfig
+
+OPENSSL_CFLAGS?=
+OPENSSL_LIBS?=-lcrypto
+
+AR?=ar
+CC?=cc
+CJ?=gcj
+CJH?=gcjh
+LD?=ld
+CXX?=g++
+JAR?=jar
